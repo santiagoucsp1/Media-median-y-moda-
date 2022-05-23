@@ -1,2 +1,11 @@
 # Media-median-y-moda-
-Media median y moda 
+Este programa nos sirve para poder calcular la media, mediana y moda. A base de funciones 
+Lina 3: primera mente ponemos una lista basia, para que próximamente almacenar los números
+Lina 4: En la variable valor, almacenamos los números que el usuario nos de 
+Linas 5-7: En estas líneas usamos un while para decir que tenga un fin la pedida de números, en este caso es el -1, le indicamos que mientras los valores sean diferentes a -1, que siga pidiendo números
+Linas 9-10: Hacemos la media, primero debemos recordar que la media es el promedio de los números, la suma de todos los números, entre la cantidad de números, esto lo hacemos usando la función sum, en los valores entre len (la cantidad de números), y fácilmente tenemos la media
+Linas 14-16: En estas líneas hacemos la mediana, primera mente nombramos a la función, luego le damos los variable a lo que vamos a usar, en este caso usamos el sorted( es para ordenar la lista) y esa sería x, y “y” seria len de la lista y entre 2, esto nos va a ayudar a encontrar el valor del medio de la lista ya ordenada 
+Linas 18-21:  decimos que, si el conteo de la lista entre 2 nos da un residuo mayor a 0, en otras palabras, que si es inpar que nos retorne que x[y] en otras palabras primero la x es la lista ordenada y en esa lista buscamos el factor centrar con y que es la mitad de la lista. Si no sucede este, sabemos que son los dos números del medio, sumados ente dos, hacemos los miso que en anterior más los mismo -1 y entre dos y ya estaría.
+Linas 25-26: En esta parte realizamos la moda, primero tenemos que saber que la moda es el valor que mas se repite, logramos que nos de este valor poniendo set de la lista, en otras palabras, que establezca la lista y el máximo de esta y que me cuanta cada una de las llaves de esta lista
+Ejemplo: Digamos que el usuario ingresa los números 11,12,11,13,12,13,11,15. Si estamos en llamando a la fusión de mediana, esta los va a ordenar y sería algo así  11,11,11,12,12,13,13,15, si la cantidad de números son pares, se suman los dos términos centrales y se dividen entre 2, en este caso saldría 12, en el caso de la moda, simplemente buscamos el que mas se repite, en este caso seria el 11 y en la media a base de las funciones de Python, como seria el len o sum, podemos llegar a la media que seria 12.25
+
